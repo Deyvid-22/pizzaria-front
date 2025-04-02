@@ -3,7 +3,6 @@ import Link from "next/link";
 
 import { LogOutIcon } from "lucide-react";
 import { cookies } from "next/headers";
-import { usePathname } from "next/navigation";
 
 export function Header() {
   async function handleLogout() {
